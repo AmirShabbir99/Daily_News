@@ -1,0 +1,47 @@
+.Api
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Card
+{ 
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--gray-color);
+    height: 350px;
+    width: 400px;
+    box-shadow: 4px 4px 10px 0px #514d4d;
+    &:hover
+    {
+        transform: translateY(-2px);
+    }
+}
+.card-full
+{
+    margin: 5px;
+
+}
+.card-img
+{
+    height: 200px;
+    width: 400px;
+}
+.card-date
+{
+    margin-left: 5px;
+    font-size: 11px;
+    color: #514d4d;
+}
+.card-title
+{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.card-detail
+{
+    margin-left: 5px;
+    font-family: sans-serif;
+}
